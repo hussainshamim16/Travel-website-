@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    margin: 50px;
+    padding-bottom: 0%;
+    background-color: rgb(80, 84, 88);
+}
+
+.h-1{
+margin-left: 40px;
+margin-right: 40px;
+padding-top: 70px;
+border-bottom: 4px solid red;
+color: #fff;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.p{
+    padding-top: 30px;
+    margin-left: 40px;
+margin-right: 40px;
+    color: #fff;
+}
+
+.the{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+
+}
+
+.ha{
+    
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+
+
+}
+
+.section6{
+    
+    /* border: 2px solid rgb(250, 247, 247); */
+font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    margin-top: 250px;
+    
+    color: white;
+    background-color: rgb(243, 74, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.boxE{
+    margin-bottom: 20px;
+}
+.no1{
+margin-left: 15px;
+}
+    
+
+
+.no1,.no2,.no3{
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    padding-right: 400px;
+    padding-left: 500px;
+    padding-top: 20px;
+    margin-left: 220%;
+    
+
+    
+}
+
+/* ################################################################## */
+
+@media (max-width:500px) 
+    { html{font-size: 17px;
+ 
+    }
+
+    .boxE{
+       margin: 0%;
+        
+    }
+
+    .no1,.no2,.no3{
+        display: block;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .ha{
+        float: none;
+        display: none;
+        margin-top: 10px;
+    margin-left: 20px;
+    background-color:  rgb(243, 74, 74);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    }
+
+    .the{
+      
+        margin-top: 10px;
+        margin-left: 55px;
+        margin-right: 0px;
+        font-size: 15px;
+        /* background-color:  rgb(243, 74, 74); */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+
+}

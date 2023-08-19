@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'montserrat',sans-serif;
+}
+
+
+
+/* ######################### html element styling ##################   */
+.container{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+html{
+    font-size: 62.5%;
+  
+}
+
+
+/* background */
+header {
+    position: relative;
+    height: 95vh;
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url('../images/d.jpeg');
+ background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/* navigation bar */
+
+nav{
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+/* ############################# header styling ################## */
+
+
+
+
+
+
+
+
+.header,a{
+    color: white;}
+
+
+    .nav-item a{
+        padding-bottom: 01rem;
+        text-decoration: none;
+    }
+
+  .nav-item a:hover{
+    border-bottom: 1px solid white;
+  } 
+
+.logo{float: left;
+font-size: 3.6rem;
+}    
+
+.nav-item{
+
+    float:right;
+     display: inline-block;
+    list-style: none;
+    padding: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+ }
+
+
+.r-b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+   font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+.btn-sec{
+    /* display: inline-block; */
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+
+nav ::after
+{content: '';display: block;clear: both;    }
+
+
+
+.header-content{
+    position: absolute;
+    
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+   
+
+.nave-i{
+    font-size: 18px;
+   /* margin-bottom: 0.5em; */
+    /* margin-top: 0.6em; */
+    
+    margin:3rem ;
+  
+}
+
+.sec{
+    font-size: 35px;
+    padding-bottom: 0px;
+    
+  
+}
+
+a.btn-primory{
+        text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;       
+    padding: 0.9em 1.9em;
+    font-weight: 700;
+    background-color: #fff;
+    /* margin: 0.5em ; */
+    display: inline-block;
+    border-radius: 15em;
+  
+}
+
+
+
+
+
+ /* #################### color utality class ############ */
+
+   
+
+.text-red{
+    color: #e63946;
+ 
+}
+
+.text-light{
+    color: #f4f4f4;
+    background-color: #333333b9   ; 
+}
+
+.text-black{
+    color: #333;
+}
+
+.text-gray{
+    color: #555;
+}
+
+
+
+/* ################### showcase class saction styling ############### */
+.showcase-class{
+background-color: #ddd;
+padding: 10rem;
+}
+
+.row{
+    height: 350px;
+    box-shadow: 0px 0px 20px 0px #aaa;
+    
+    background-color: #fff;
+}
+
+.row-1{
+    margin-bottom: 10rem;
+}
+
+ /* ################################## pseudo ################################# */
+
+ .row-1 .img-box, .row-2 .text-box {
+    float: left;
+    width: 50%;
+ }
+
+ .row-2 .img-box, .row-1 .text-box {
+   float: right;
+    width: 50%;
+}
+
+/* #################################### border ######################## */
+
+.row .img-box{
+    
+    height: 100%;
+}
+
+.row .text-box{
+    
+    height: 100%;
+    padding: 3rem;
+}
+
+/* ################################# img add ########################### */
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pergraph{
+    font-size: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 16px;
+}
+
+
+.lg-heading {
+    font-size: 3.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: fit-content;
+    width: 90%;
+    margin: auto;
+   }
+
+
+.btn-secondery{
+    color: #e63946;
+    border: 2px solid #e63946;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;       
+    padding: 0.3em 1.3em;
+    font-weight: 600;
+    margin: 0.5em ;
+    display: inline-block;
+    border-radius: 17em;
+}
+
+/* ############################ float pseoudo ########################## */
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ############################### features section styling ################## */
+.features{
+    padding: 10rem 0;
+}
+
+.box{
+    width: 33.33333333%;
+    float: left;
+  
+    text-align: center;
+}
+
+
+.box-1, .box-3{
+background-color: #263238;
+color: #fff;
+}
+
+.box-2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
+
+.box-wrapper{
+    box-shadow: 5px 5px 20px 0px #000000e8;
+}
+
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ############################ foter styling ################################ */
+.foter{
+    padding: 3rem 0;
+    background:#263238;
+
+}
+
+.p-foter{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 2px; */
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media (max-width:500px) 
+{ html{font-size: 2px;
+ 
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.r-b{
+    font-size: 12px;
+   text-align: center;
+   padding-top: 10px;
+   float: none;
+}
+
+.hh{
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+
+.sec{
+    font-size: 25px;
+    
+}
+
+/* .nave-i{
+    font-size: 90px;
+    text-align: center;
+} */
+  a.btn-primory{
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;       
+    padding: 0.5em 1.5em;
+    width: 150px;
+    font-weight: 600;
+    background-color: #fff;
+    /* margin: 0.5em ; */
+    display: inline-block;
+    border-radius: 15em;
+  } 
+
+
+  /* ######################### second ##################### */
+  
+.row-1, .row-2 {
+    display: block;
+    height: auto;
+     float: none;
+     width: 100%;
+     text-align: center;
+  }
+  
+.row .img-box,
+.row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+
+  }
+
+
+
+.text-black{
+    font-size: 25px;
+    float: none;
+}
+
+
+/* ######################################################### */
+
+.features .box{
+float: none;
+width: 100%;
+text-align: center;
+margin-top: 40px;
+}
+}
+
+.box-wrapper{
+    box-shadow: none;
+
+}
+
+.p-foter{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+    
+
+  
+
+
