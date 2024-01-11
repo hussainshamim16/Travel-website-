@@ -28,7 +28,7 @@ html{
 header {
     position: relative;
     height: 95vh;
- background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url('./d.jpeg');
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url('./d.jpeg');
  background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -40,7 +40,7 @@ background-repeat: no-repeat;
 nav{
     text-decoration: none;
     padding: 1rem;
-    margin-top: 1rem;
+/*     margin-top: 1rem; */
 
 }
 
@@ -139,6 +139,8 @@ a.btn-primory{
     font-size: 18px;       
     padding: 0.9em 1.9em;
     font-weight: 700;
+    margin-top: 20px;    /*--------------------this line.
+    /* hell */
     background-color: #fff;
     /* margin: 0.5em ; */
     display: inline-block;
@@ -160,8 +162,9 @@ a.btn-primory{
 }
 
 .text-light{
-    color: #f4f4f4;
-    background-color: #333333b9   ; 
+    color: #f4f4f4;       
+    /* background-color: #333333b9   ;  */
+/*------^^^^^^^^^^^^^^^^^^^^^^^^^^--------------this line...*/
 }
 
 .text-black{
@@ -228,7 +231,10 @@ padding: 10rem;
 .pergraph{
     font-size: 20px;
     max-width: 400px;
-    width: 90%;
+    text-align: left;
+     /* ^^^^------------- this line */
+    width: 100%;
+     /* ^^^^------------- this line */
     margin: auto;
     padding: 16px;
 }
@@ -238,7 +244,7 @@ padding: 10rem;
     font-size: 3.5rem;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     max-width: fit-content;
-    width: 90%;
+    width: 100%;
     margin: auto;
    }
 
@@ -249,8 +255,9 @@ padding: 10rem;
     background-color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+     padding: 0.5em 1.5em; 
     font-size: 16px;       
-    padding: 0.3em 1.3em;
+  
     font-weight: 600;
     margin: 0.5em ;
     display: inline-block;
@@ -316,6 +323,14 @@ color: #fff;
     padding-top: 40px;
 }
 
+.p-foter{
+    text-align: center;
+    font-size: 20px;
+    /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this line */
+    text-decoration: none;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
 @media (max-width:500px) 
 { html{font-size: 2px;
  
@@ -355,8 +370,11 @@ color: #fff;
     margin-top: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 16px;       
-    padding: 0.5em 1.5em;
+      
+   font-size: 12px;       
+    padding: 0.9em 0.6em;
+    font-weight: 800;
+      
     width: 150px;
     font-weight: 600;
     background-color: #fff;
@@ -364,6 +382,25 @@ color: #fff;
     display: inline-block;
     border-radius: 15em;
   } 
+
+ .btn-secondery{   
+    padding: 0.9em 2.5em; 
+    font-size: 12px;       
+   
+    /* ^^^^ 0.9 2.5 and 12px margbottom------------- this line */
+    font-weight: 600;
+    margin: 0.5em ;
+    display: inline-block;
+    border-radius: 17em;
+}
+
+
+ .pergraph{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    /* ^^^^^^^^^^^^          this lines--- -------- / */
+}
 
 
   /* ######################### second ##################### */
@@ -379,6 +416,7 @@ color: #fff;
 .row .img-box,
 .row .text-box{
     float: none;
+        height: 45vh;
     width: 100%;
     text-align: center;
 
@@ -406,12 +444,16 @@ margin-top: 40px;
     box-shadow: none;
 
 }
-
+.pergraph{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    /* ^^^^^^^^^^^^          this lines--- -------- / */
+}
 .p-foter{
     text-align: center;
-    font-size: 20px;
-    padding-top: 10px;
-    margin-bottom: 25px;
+    font-size: 13px;
+    text-decoration: none;
 }
 
     
